@@ -1,0 +1,381 @@
+/*===================== Global Styling ===================*/
+
+
+
+/*===================== Global Styling ===================*/
+
+/*=============== Start Styling Header ================*/
+.navbar-nav{
+    width: 100%;
+}
+header .headline{
+    padding: 50px 0;
+}
+header .headline h1{
+    font-weight: bolder;
+}
+
+header .headline p span{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+}
+
+
+header .content {
+    min-height: 900px;
+    background-image:url("../img/cover.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 0 30px;
+    color: #c386b8;
+    font-weight: bolder;
+}
+header .content h1{
+    font-weight: bolder;
+    
+}
+header .content button{
+    width: 120px;
+    text-align: center;
+    border: none;
+    outline:none;
+    color: #727272;
+    padding: 10px;
+}
+
+
+
+
+/*=============== End Styling Header ================*/
+/*=================== Start Styling Blog ====================*/
+.blog{
+
+    background-color: #eee;
+    overflow: hidden;
+}
+.blog .w-container{
+    
+    margin: 20px 15px;
+}
+.blog .content .item {
+    padding: 20px 25px;
+    margin: 0 20px;
+
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 768px){
+    .blog .content .item img{
+        width: 100%;
+    }
+}
+.blog .content .item h5{
+    margin: 10px 0;
+    font-size: 15px;
+}
+.blog .content .item h5 span{
+    color: #727272;
+}
+.blog .content .item .img-wrapper{
+    margin: 20px 0;
+}
+.blog .content .item .caption span{
+    font-weight: bold;
+}
+.blog .content .likee{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.blog .content .review{
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+
+}
+.blog .content .review::before{
+    content: "";
+    width: 50%;
+    text-align: center;
+    display: block;
+    border-top: 5px solid #727272;
+    
+}
+.blog .content .review .review-caption h4{
+    color: #727272;
+    font-size: 20px;
+}
+.blog .content .review .review-caption h4 span{
+    color: #000;
+    font-weight: bold;
+}
+.blog .content .review .review-caption p{
+    font-size: 12px;
+}
+
+/*============== Start Styling  last two Post=============*/
+.blog .content .middle{
+    margin-top: 35px;
+}
+.blog .content .last{
+    margin-top: 20px;
+}
+/*============== End Styling  last two Post=============*/
+
+/*=================== End Styling Blog ====================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================== Start Styling About ===========================*/
+.blog .box{
+    width: 97.5%;
+    margin: 0 auto;
+}
+
+.blog .box .caption{
+    color: #fff;
+    background-color: #9fb8bf;
+    padding: 10px;
+}
+.blog .box .caption h4{
+    font-weight: bolder;
+}
+.blog .box .caption p{
+    font-size: 14px;
+}
+@media (max-width: 992px){
+    .about{
+        /* width: 100%; */
+        /* margin-top: 30px; */
+        margin: 35px 10px;
+        
+    }
+    
+}
+@media (max-width: 992px){
+    .blog .box{
+        width: 98%;
+    }
+}
+@media (max-width: 992px){
+    .blog .box img{
+        width: 97.5%;
+    }
+}
+@media (max-width: 992px){
+    .blog .box .caption{
+        width: 97.5%;
+    }
+}
+/*================== Start Styling Posts ==================*/
+.blog .post-card{
+    width: 97.5%;
+    margin: 35px auto;
+    background-color: #fff;
+    /* position: relative; */
+}
+
+.blog .post-card nav{
+    background-color: #9fb8bf;
+}
+.blog .post-card nav h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.blog .post-card .list-group .list-group-item{
+    display: flex;
+    align-items: center;
+    
+}
+.blog .post-card .list-group .list-group-item:hover{
+    background-color: #eee;
+}
+.blog .post-card .list-group .list-group-item p{
+    padding: 0 30px;
+    margin: 0;
+}
+@media (max-width: 992px){
+    .blog .post-card{
+        width: 95.5%;
+        margin: 35px 10px;
+    }
+}
+/*================== End Styling Posts ==================*/
+
+/*================== Start Styling ADS ==================*/
+.blog .post-card .content{
+    position: relative;
+    height: 200px;
+    
+}
+.blog .post-card .content .text-wrapper{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9fb8bf;
+}
+/*================== End Styling ADS ==================*/
+
+/*===================== Start Styling Tags=====================*/
+.blog .post-card .types{
+    padding: 20px;
+}
+.blog .post-card .types span.active{
+    background-color: #9fb8bf;
+    color: #fff;
+}
+.blog .post-card .types span{
+    background-color: #ccc;
+    font-size: 12px;
+    padding: 3px;
+    margin:0 5px;
+    /* margin-bottom: 15px; */
+}
+/*===================== End Styling Tags=====================*/
+
+/*======================= Start Styling Inspiration =====================*/
+
+.blog .post-card .img-card img{
+    width: 100%;
+    margin: 15px 0;
+    
+}
+/* .blog .post-card .img-card img{
+    width: 100%;
+} */
+.blog .post-card .images-card{
+    padding: 15px 30px;
+}
+/* @media (max-width: 768px){
+    .blog .post-card .img-card{
+        
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media (max-width: 768px){
+    .blog .post-card .img-card img{
+        width: 50%;
+        margin: 0 auto;
+        object-fit: cover;
+    } 
+} */
+/*======================= End Styling Inspiration =====================*/
+
+/*================== Start Styling Follow===================*/
+.blog .post-card .icons{
+    padding: 10px;
+    color: #9fb8bf;
+}
+
+
+.blog .post-card .icons .icon{
+    padding: 0 10px;
+}
+.blog .post-card .icons .icon:hover{
+    color: #ccc;
+}
+
+
+
+
+/*================== End Styling Follow===================*/
+
+/*================= Start Styling Subscribe=============================*/
+.blog .post-card form{
+    padding: 10px;
+}
+.blog .post-card form input{
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 8px;
+    
+}
+.blog .post-card form button{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #caa37f;
+    background-color: #caa37f;
+    color: #fff;
+}
+.blog .post-card form button:hover{
+    background-color: #9fb8bf;
+}
+/*================= End Styling Subscribe=============================*/
+
+
+
+/*========================== End Styling About ===========================*/
+
+/* ==================== Start Styling Footer =========================  */
+footer{
+    color: #fff;
+    background-color: #616161;
+    height: 180px;
+
+}
+footer .content{
+    padding: 0 35px;
+}
+footer button{
+    margin: 30px 0;
+    background-color: #9fb8bf;
+    border: 1px solid #9fb8bf;
+    padding: 10px;
+    color: #fff;
+}
+footer button:hover{
+    background-color: #eee;
+    border: 1px solid #eee;
+    color: #9fb8bf;
+
+}
+
+footer p span{
+    text-decoration: underline;
+}
+
+/* ==================== End Styling Footer =========================  */
